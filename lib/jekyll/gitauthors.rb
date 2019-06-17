@@ -2,7 +2,6 @@ require "jekyll/gitauthors/version"
 
 module Jekyll
   module Gitauthors
-    class Error < StandardError; end
-    # Your code goes here...
+    VERSION = "1.0.0"
   end
 end
