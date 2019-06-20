@@ -5,19 +5,17 @@ require "jekyll/gitauthors/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-gitauthors"
-  spec.version       = Jekyll::Gitauthors::VERSION
+  spec.version       = "0.5.0"
   spec.authors       = ["Adam Green"]
   spec.email         = ["adam.green@kcl.ac.uk"]
 
   spec.summary       = %q{A gem for adding authors of a file based on whose committed on Git}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/nergmada/jekyll-gitauthors"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
-    spec.metadata["allowed_push_host"] = 'http://mygemserver.com'
-
     spec.metadata["homepage_uri"] = spec.homepage
     spec.metadata["source_code_uri"] = "https://github.com/nergmada/jekyll-gitauthors"
     spec.metadata["changelog_uri"] = "https://github.com/nergmada/jekyll-gitauthors"
