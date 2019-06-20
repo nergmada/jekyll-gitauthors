@@ -34,4 +34,4 @@ module Jekyll
 end
   
 Liquid::Template.register_tag('git_author', Jekyll::GitAuthorTag)
-Liquid::Template.register_tag('git_author_all', Jekyll::GitAuthorTag)
+Liquid::Template.register_tag('git_author_all', Jekyll::GitAuthorAllTag)
